@@ -19,7 +19,7 @@ from .routers import posts, users, auth, vote
 # The FastAPI application instance that uvicorn runs
 app = FastAPI()
 
-# origins: which frontend origins (scheme+host+port) are allowed to call this API from a browser
+# origins: which frontend  origins (scheme+host+port) are allowed to call this API from a browser
 origins = ["*"]
 
 # Register CORS middleware; "*" allows any origin, which is convenient for learning/dev but not for production
